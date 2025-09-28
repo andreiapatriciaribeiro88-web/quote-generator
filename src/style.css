@@ -1,3 +1,80 @@
 body {
   background: linear-gradient(135deg, #fff4e6, #ffd9b3);
+  color: #5a3e1b;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  width: 100%;
+  background: #fff9f0;
+  border-radius: 25px;
+  box-shadow: 0 20px 40px rgba(255, 165, 70, 0.3);
+  padding: 40px 30px;
+  text-align: center;
+}
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #d35400;
+}
+
+form {
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.instructions {
+  padding: 16px;
+  border: 2px solid #f0a65e;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  color: #5a3e1b;
+}
+.submit-button {
+  background: #e67e22;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 0 30px;
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: 0 8px 15px rgba(230, 126, 34, 0.6);
+  transition: background 200ms ease, box-shadow 200ms ease;
+}
+.submit-button:hover {
+  cursor: pointer;
+  background: #d35403;
+  box-shadow: 0 10px 20px rgba(211, 84, 0, 0.7);
+}
+
+.quote {
+  font-size: 14px;
+  background: #fff3e0;
+  border-radius: 20px;
+  color: #5a3e1b;
+  box-shadow: 0 8px 20px rgba(230, 126, 34, 0.15);
+  margin-top: 20px;
+  padding: 25px 40px 50px 40px;
+  line-height: 1.6;
+  border-left: 3px solid #d35403;
+  border-right: 3px solid #d35403;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 12px;
+  color: #a86f39;
+  text-align: center;
+}
+
+footer a {
+  color: #d35400;
+  text-decoration: none;
+  font-weight: 600;
 }

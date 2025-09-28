@@ -7,41 +7,46 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <h1>
-        ✨ Your Daily Spark <br />
-        AI Quote Generator ✨
-      </h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a mood or topic (e.g., Confidence, Focus)"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" value="Generate" />
-      </form>
-      <div>The quote will go here</div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/andreiapatriciaribeiro88-web" target="_blank"
-        >Andreia Ribeiro
-      </a>
-      •
-      <a
-        href="https://github.com/andreiapatriciaribeiro88-web/quote-generator"
-        target="_blank"
-        >Source Code</a
-      >
-      •
-      <a href="https://quote-generator-brown-phi.vercel.app/" target="_blank"
-        >Hosted on Vercel</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>
+          ✨ Your Daily Spark <br />
+          AI Quote Generator ✨
+        </h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a mood or topic (e.g., Confidence, Focus)"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" value="Generate" class="submit-button" />
+        </form>
+        <div class="quote">The quote will go here</div>
+      </main>
+      <footer>
+        This project was coded by
+        <a
+          href="https://github.com/andreiapatriciaribeiro88-web"
+          target="_blank"
+          >Andreia Ribeiro
+        </a>
+        •
+        <a
+          href="https://github.com/andreiapatriciaribeiro88-web/quote-generator"
+          target="_blank"
+          >Source Code</a
+        >
+        •
+        <a href="https://quote-generator-brown-phi.vercel.app/" target="_blank"
+          >Hosted on Vercel</a
+        >
+      </footer>
+    </div>
     <script src="src/script.js"></script>
   </body>
 </html>
