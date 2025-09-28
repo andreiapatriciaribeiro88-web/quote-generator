@@ -66,6 +66,9 @@ form {
   border-right: 3px solid #d35403;
 }
 
+.quote strong {
+  color: #d35400;
+}
 footer {
   margin-top: 50px;
   font-size: 12px;
