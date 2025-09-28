@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Quotes Generator</title>
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
@@ -15,7 +16,7 @@
         </h1>
       </header>
       <main>
-        <form>
+        <form id="quote-generator-form">
           <input
             type="text"
             placeholder="Enter a mood or topic (e.g., Confidence, Focus)"
@@ -26,7 +27,7 @@
           />
           <input type="submit" value="Generate" class="submit-button" />
         </form>
-        <div class="quote">The quote will go here</div>
+        <div class="quote" id="quote"></div>
       </main>
       <footer>
         This project was coded by
