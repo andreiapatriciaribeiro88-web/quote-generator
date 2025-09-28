@@ -17,19 +17,22 @@
         </h1>
       </header>
       <main>
-        <form id="quote-generator-form">
-          <input
-            type="text"
-            placeholder="Enter a mood or topic (e.g., Confidence, Focus,...)"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" value="Generate" class="submit-button" />
-        </form>
-        <div class="quote" id="quote"></div>
+        <div class="form-container">
+          <form id="quote-generator-form">
+            <input
+              type="text"
+              placeholder="Enter a mood or topic "
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" value="Generate" class="submit-button" />
+          </form>
+          <div class="hint">i.e:confidence, focus,...</div>
+        </div>
+        <div class="quote hidden" id="quote"></div>
       </main>
       <footer>
         This project was coded by

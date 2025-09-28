@@ -21,8 +21,10 @@ h1 {
   color: #d35400;
 }
 
-form {
+.form-container {
   padding: 30px;
+}
+form {
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -53,6 +55,13 @@ form {
   box-shadow: 0 10px 20px rgba(211, 84, 0, 0.7);
 }
 
+.hint {
+  line-height: 1.1;
+  font-size: 12px;
+  margin-top: 5px;
+  text-align: start;
+  opacity: 0.5;
+}
 .quote {
   font-size: 14px;
   background: #fff3e0;
@@ -69,6 +78,21 @@ form {
 .quote strong {
   color: #d35400;
 }
+
+.hidden {
+  display: none;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.generating {
+  color: #e67e22;
+  animation: blink 1s steps(2, start) infinite;
+}
+
 footer {
   margin-top: 50px;
   font-size: 12px;
